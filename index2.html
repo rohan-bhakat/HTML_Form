@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div id="form-container">
+        <h1>Online Form</h1>
+
+        <!-- Personal Information Section -->
+        <div id="personal-info">
+            <h2>Personal Information</h2>
+            <label for="FirstName">Enter your first name</label>
+            <input type="text" id="FirstName" placeholder="Your first name.......">
+            <br><br>
+
+            <label for="SecondName">Enter your second name</label>
+            <input type="text" id="SecondName" placeholder="Your second name.......">
+            <br><br>
+
+            <label for="LastName">Enter your last name</label>
+            <input type="text" id="LastName" placeholder="Your last name.......">
+            <br><br>
+
+            <label for="Email">Enter your email id</label>
+            <input type="text" id="Email" placeholder="Your email id.......">
+            <br><br>
+
+            <label for="Password">Enter your password</label>
+            <input type="password" id="Password" placeholder="Your password.......">
+            <br><br>
+
+            <label for="ConfirmPassword">Confirm password</label>
+            <input type="password" id="ConfirmPassword" placeholder="Confirm your password.......">
+            <br><br>
+
+            <label for="Datepicker">Enter your date of birth</label>
+            <input type="date" name="Datepicker" id="Datepicker">
+        </div>
+
+        <!-- Preferences Section -->
+        <div id="preferences">
+            <h2 id="preces">Preferences</h2>
+            <div class="inline-options">
+                <div class="option-group">
+                    <p id="pra1">Gender Selection</p><br>
+                    <label class="radio-container">
+                        <input type="radio" name="option" value="1"> Male </label>
+                    <label class="radio-container">
+                        <input type="radio" name="option" value="2">
+                        Female
+                    </label>
+                    <label class="radio-container">
+                        <input type="radio" name="option" value="3">
+                        Others
+                    </label>
+                </div>
+
+                <div class="checkbox-container">
+                    <p id="pra2">Language Known</p><br>
+                    <label>
+                        <label class="checkbox-container">
+                            <input type="checkbox">
+                            Hindi
+                        </label>
+
+
+                        <label>
+                            <label class="checkbox-container">
+                                <input type="checkbox">
+                                English
+                            </label>
+
+                </div>
+                
+                <div class="study type">
+                    <p id="pra3">Select study Type</p><br>
+                    <label class="radio-containers">
+                        <input type="radio" name="options" value="11">School </label>
+                    <label class="radio-containers">
+                        <input type="radio" name="options" value="22">
+                        College
+                    </label>
+                    <label class="radio-containers">
+                        <input type="radio" name="options" value="33">
+                       University
+                    </label><br>
+                </div>
+            </div>
+        
+            
+
+                <label for="items">Select your favorite items</label>
+                <select name="items" id="item">
+                    <option value="mango">Mango</option>
+                    <option value="orange">Orange</option>
+                    <option value="banana">Banana</option>
+                    <option value="coconut">Coconut</option>
+                    <option value="guava">Guava</option>
+                    <option value="litchi">Litchi</option>
+                    <option value="jamoon">Jamoon</option>
+                    <option value="grapes">Grapes</option>
+                    <option value="papaya">Papaya</option>
+                    <option value="cherry">Cherry</option>
+                </select>
+                <br>
+
+                <label for="address">Write your address.....</label>
+                <textarea name="address" id="address" placeholder="Enter Your Address here" rows="4"></textarea>
+            </div>
+
+            <!-- Submit Section -->
+            <div id="submit-section">
+                <h2>Submit Your Details</h2>
+                <label for="profile-picture">Profile Picture</label>
+                <input type="file" id="profile-picture">
+                <br>
+
+                <input type="submit" value="Submit"><br><br>
+                <button>Submit All Information Here</button>
+            </div>
+        </div>
+</body>
+
+</html>
